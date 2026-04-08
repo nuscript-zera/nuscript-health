@@ -11,6 +11,7 @@ import SolutionsPractices from './pages/SolutionsPractices';
 import ContactDemo from './pages/ContactDemo';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfUse from './pages/TermsOfUse';
+import PageNotFound from './lib/PageNotFound';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/ContactDemo" element={<ContactDemo />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/TermsOfUse" element={<TermsOfUse />} />
+          <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
       <Toaster />
