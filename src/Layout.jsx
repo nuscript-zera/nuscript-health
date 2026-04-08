@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 import { createPageUrl } from "./utils";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -11,6 +11,8 @@ export default function Layout() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [solutionsOpen, setSolutionsOpen] = useState(false);
     const [productsOpen, setProductsOpen] = useState(false);
+    const location = useLocation();
+    const currentPageName = location.pathname.replace('/', '') || 'Home';
 
     useEffect(() => {
       // Load Plus Jakarta Sans font
