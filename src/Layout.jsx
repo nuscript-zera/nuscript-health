@@ -68,7 +68,7 @@ export default function Layout() {
       hasDropdown: true,
       items: [
         { name: "ZERA Scribe", page: "ZeraScribe" },
-        { name: "ZERA RCM", page: "ZeraFlow" },
+        { name: "ZERA RCM", page: "ZeraRCM" },
       ]
     },
     { 
@@ -287,7 +287,7 @@ export default function Layout() {
                 <Link to={createPageUrl("ZeraScribe")} className="block text-gray-400 hover:text-blue-400 transition-colors" style={{fontSize: '14px'}}>
                   ZERA Scribe
                 </Link>
-                <Link to={createPageUrl("ZeraFlow")} className="block text-gray-400 hover:text-blue-400 transition-colors" style={{fontSize: '14px'}}>
+                <Link to={createPageUrl("ZeraRCM")} className="block text-gray-400 hover:text-blue-400 transition-colors" style={{fontSize: '14px'}}>
                   ZERA RCM
                 </Link>
                 <Link to={createPageUrl("HowItWorks")} className="block text-gray-400 hover:text-blue-400 transition-colors" style={{fontSize: '14px'}}>

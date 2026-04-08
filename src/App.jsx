@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './Layout';
 import Home from './pages/Home';
 import ZeraScribe from './pages/ZeraScribe';
-import ZeraFlow from './pages/ZeraFlow';
+import ZeraRCM from './pages/ZeraRCM';
 import HowItWorks from './pages/HowItWorks';
 import WhyNuScript from './pages/WhyNuScript';
 import SolutionsASC from './pages/SolutionsASC';
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/ZeraScribe" element={<ZeraScribe />} />
-          <Route path="/ZeraFlow" element={<ZeraFlow />} />
+          <Route path="/ZeraRCM" element={<ZeraRCM />} />
           <Route path="/HowItWorks" element={<HowItWorks />} />
           <Route path="/WhyNuScript" element={<WhyNuScript />} />
           <Route path="/SolutionsASC" element={<SolutionsASC />} />

@@ -26,7 +26,7 @@ export default function ClinicalRootsSection() {
     { 
       year: "Today", 
       label: "The ZERA™ Product Suite", 
-      desc: "ZERA Scribe and ZERA Flow represent the next era of autonomous clinical and financial workflows with zero-friction.",
+      desc: "ZERA Scribe and ZERA RCM represent the next era of autonomous clinical and financial workflows with zero-friction.",
       icon: CheckCircle
     }
   ];

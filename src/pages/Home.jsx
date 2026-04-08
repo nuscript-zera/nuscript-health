@@ -215,7 +215,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <Link 
-                   to={createPageUrl("ZeraFlow")}
+                   to={createPageUrl("ZeraRCM")}
                    className="inline-flex items-center gap-2 text-indigo-600 font-medium hover:text-indigo-700 transition-colors group/link"
                  >
                   Learn about ZERA RCM

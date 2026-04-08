@@ -7,8 +7,8 @@ export default function TermsOfUse() {
   return (
     <div className="bg-white min-h-screen">
       <Helmet>
-        <title>Terms of Use | NuScript Health ZERA Scribe & ZERA Flow Clinical‑to‑Financial AI Platform</title>
-        <meta name="description" content="Review NuScript Health's Terms of Use for the ZERA Scribe and ZERA Flow clinical‑to‑financial AI platform, including permitted use, clinical responsibility, intellectual property, interoperability, disclaimers, limitations of liability, governing law, and legal contact information." />
+        <title>Terms of Use | NuScript Health ZERA Scribe & ZERA RCM Clinical‑to‑Financial AI Platform</title>
+        <meta name="description" content="Review NuScript Health's Terms of Use for the ZERA Scribe and ZERA RCM clinical‑to‑financial AI platform, including permitted use, clinical responsibility, intellectual property, interoperability, disclaimers, limitations of liability, governing law, and legal contact information." />
       </Helmet>
       {/* Hero */}
       <section className="relative pt-20 pb-12 lg:pt-32 lg:pb-16 bg-gradient-to-br from-blue-50 via-white to-indigo-50">

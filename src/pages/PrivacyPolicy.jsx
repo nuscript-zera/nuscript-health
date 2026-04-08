@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           description: "We collect audio recordings or transcripts of clinical encounters to generate documentation. Audio data is processed in real-time. Depending on client configuration, audio files may be deleted immediately following transcript generation to ensure maximum privacy (\"Zero-Retention\" mode)."
         },
         {
-          label: "ZERA Flow Data",
+          label: "ZERA RCM Data",
           description: "We collect clinical documentation, ICD/CPT codes, and financial remittance data (835/277 files) to automate RCM workflows."
         },
         {
@@ -107,7 +107,7 @@ export default function PrivacyPolicy() {
     <div className="bg-white min-h-screen">
       <Helmet>
         <title>Privacy Policy | NuScript Health ZERA Scribe & Flow Clinical‑to‑Financial AI Platform</title>
-        <meta name="description" content="Read NuScript Health's Privacy Policy covering ZERA Scribe and ZERA Flow, including HIPAA Business Associate status, PHI handling, data retention, AI model training, security controls, sub‑processors, and state‑specific privacy notices." />
+        <meta name="description" content="Read NuScript Health's Privacy Policy covering ZERA Scribe and ZERA RCM, including HIPAA Business Associate status, PHI handling, data retention, AI model training, security controls, sub‑processors, and state‑specific privacy notices." />
       </Helmet>
       {/* Hero */}
       <section className="relative pt-20 pb-12 lg:pt-32 lg:pb-16 bg-gradient-to-br from-blue-50 via-white to-indigo-50">

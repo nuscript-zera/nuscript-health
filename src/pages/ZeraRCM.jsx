@@ -20,7 +20,7 @@ import FeatureGrid from "@/components/shared/FeatureGrid";
 import ScenarioCard from "@/components/shared/ScenarioCard";
 import CTASection from "@/components/shared/CTASection";
 
-export default function ZeraFlow() {
+export default function ZeraRCM() {
   const features = [
     {
       icon: Zap,
