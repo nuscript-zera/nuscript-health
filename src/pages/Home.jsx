@@ -131,13 +131,13 @@ export default function Home() {
           >
             <span className="text-blue-600 text-sm font-semibold tracking-wider uppercase mb-4 block">The Zera Product Line</span>
             <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-              One Platform From Capture to Cash
+              One Platform. From Capture to Cash.
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed mb-4">
-              Zera<sup>™</sup> is a clinical-to-financial AI platform that follows every encounter from first words in the exam room to final dollars in the bank. Zera (pronounced "ZEE-ruh") stands for the Zero-friction Engine for Revenue Autonomy—our mission to remove drag between clinical work, coding, and cash.
+              Zera<sup>™</sup> is a clinical-to-financial AI platform that follows every encounter from first words in the exam room to final dollars in the bank. One AI that documents, codes, and claims — with zero handoffs in between.
             </p>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
-             <span className="text-blue-600 font-medium">Zera Scribe</span> cleans up the clinical front end. <span className="text-blue-600 font-medium">Zera RCM</span> cleans up the financial back end. Together, they reduce rework, denials, and manual touches across the revenue chain.
+             <span className="text-blue-600 font-medium">Zera Scribe</span> eliminates the documentation burden. <span className="text-blue-600 font-medium">Zera RCM</span> autonomously captures the revenue. Together, they remove every manual touch between the clinical encounter and the paid claim.
             </p>
           </motion.div>
 
