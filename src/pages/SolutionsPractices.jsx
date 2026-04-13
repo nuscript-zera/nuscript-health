@@ -48,9 +48,9 @@ export default function SolutionsPractices() {
   const solutions = [
     {
       icon: FileText,
-      product: "ZERA Scribe",
+      product: "Zera Scribe",
       title: "Ambient AI Documentation for Every Specialty",
-      description: "Purpose-built for independent and specialty practices. ZERA Scribe captures your patient conversations and produces complete, coded notes tailored to your specialty.",
+      description: "Purpose-built for independent and specialty practices. Zera Scribe captures your patient conversations and produces complete, coded notes tailored to your specialty.",
       benefits: [
         "End after-hours charting—leave work at work",
         "Specialty templates: cardiology, dermatology, primary care, and more",
@@ -60,9 +60,9 @@ export default function SolutionsPractices() {
     },
     {
       icon: DollarSign,
-      product: "ZERA RCM",
+      product: "Zera RCM",
       title: "Simplified Revenue Cycle for Growing Practices",
-      description: "Don't let billing complexity slow your growth. ZERA RCM automates eligibility, prevents denials, and accelerates your cash flow without adding headcount.",
+      description: "Don't let billing complexity slow your growth. Zera RCM automates eligibility, prevents denials, and accelerates your cash flow without adding headcount.",
       benefits: [
         "Automated eligibility and benefits verification",
         "Denial prediction and prevention",
@@ -76,7 +76,7 @@ export default function SolutionsPractices() {
     {
       title: "The Burned-Out Cardiologist",
       persona: "Solo Cardiology Practice",
-      description: "Dr. Patel was spending 3 hours every night on documentation. After implementing ZERA Scribe, he completes notes during patient visits and has reclaimed his evenings.",
+      description: "Dr. Patel was spending 3 hours every night on documentation. After implementing Zera Scribe, he completes notes during patient visits and has reclaimed his evenings.",
       outcome: "Zero after-hours charting, improved patient satisfaction"
     },
     {
@@ -97,7 +97,7 @@ export default function SolutionsPractices() {
     <div className="bg-white">
       <Helmet>
         <title>Independent Medical Practice Solutions | More Patients, Less Paper | NuScript Health</title>
-        <meta name="description" content="NuScript Health's AI platform helps independent and specialty practices see more patients with less paperwork—combining ZERA Scribe for ambient clinical documentation and ZERA RCM for simplified revenue cycle automation to cut after‑hours charting, reduce denials, and improve cash flow." />
+        <meta name="description" content="NuScript Health's AI platform helps independent and specialty practices see more patients with less paperwork—combining Zera Scribe for ambient clinical documentation and Zera RCM for simplified revenue cycle automation to cut after‑hours charting, reduce denials, and improve cash flow." />
       </Helmet>
       {/* Hero */}
       <HeroSection
@@ -261,7 +261,7 @@ export default function SolutionsPractices() {
                  Built for Your Specialty
                </h2>
                <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                ZERA Scribe understands the unique documentation requirements of each specialty—from cardiology note templates to dermatology procedure documentation.
+                Zera Scribe understands the unique documentation requirements of each specialty—from cardiology note templates to dermatology procedure documentation.
               </p>
               <div className="grid grid-cols-2 gap-3">
                 {specialties.map((specialty, index) => (

@@ -21,11 +21,11 @@ export default function HowItWorks() {
   const journey = [
     {
       step: "Capture",
-      product: "ZERA Scribe",
+      product: "Zera Scribe",
       icon: Mic,
       color: "from-blue-500 to-blue-600",
       title: "Ambient Documentation",
-      description: "ZERA Scribe listens to clinician-patient conversations in the background, capturing the complete clinical encounter without disrupting the care experience.",
+      description: "Zera Scribe listens to clinician-patient conversations in the background, capturing the complete clinical encounter without disrupting the care experience.",
       details: [
         "Real-time conversation capture",
         "Healthcare-tuned speech recognition",
@@ -35,11 +35,11 @@ export default function HowItWorks() {
     },
     {
       step: "Code",
-      product: "ZERA Scribe → RCM",
+      product: "Zera Scribe → RCM",
       icon: Code2,
       color: "from-purple-500 to-purple-600",
       title: "Intelligent Coding",
-      description: "From the captured conversation, ZERA generates chart-ready notes with accurate ICD-10 and CPT code suggestions—setting up the revenue cycle for success.",
+      description: "From the captured conversation, Zera generates chart-ready notes with accurate ICD-10 and CPT code suggestions—setting up the revenue cycle for success.",
       details: [
         "SOAP and specialty-specific note generation",
         "Accurate diagnosis code suggestions",
@@ -49,11 +49,11 @@ export default function HowItWorks() {
     },
     {
       step: "Collect",
-      product: "ZERA RCM",
+      product: "Zera RCM",
       icon: DollarSign,
       color: "from-teal-500 to-teal-600",
       title: "Autonomous RCM",
-      description: "ZERA RCM takes over, predicting and preventing denials, automating financial clearance, and accelerating cash collection—turning billing into a self-driving system.",
+      description: "Zera RCM takes over, predicting and preventing denials, automating financial clearance, and accelerating cash collection—turning billing into a self-driving system.",
       details: [
         "Real-time eligibility verification",
         "Predictive denial prevention",
@@ -72,7 +72,7 @@ export default function HowItWorks() {
     {
       title: "Configuration",
       duration: "Week 2",
-      description: "ZERA is configured for your specialty templates, coding preferences, and Epic workflows."
+      description: "Zera is configured for your specialty templates, coding preferences, and Epic workflows."
     },
     {
       title: "Pilot Deployment",
@@ -89,8 +89,8 @@ export default function HowItWorks() {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>How NuScript Works | From Clinical Conversation to Cash Collection | ZERA Scribe & RCM</title>
-        <meta name="description" content="See how NuScript Health's unified AI platform connects ZERA Scribe and ZERA RCM to capture clinical conversations, generate coded documentation, and automate revenue cycle workflows—creating an end‑to‑end Capture → Code → Collect journey that reduces friction, denials, and time to cash." />
+        <title>How NuScript Works | From Clinical Conversation to Cash Collection | Zera Scribe & RCM</title>
+        <meta name="description" content="See how NuScript Health's unified AI platform connects Zera Scribe and Zera RCM to capture clinical conversations, generate coded documentation, and automate revenue cycle workflows—creating an end‑to‑end Capture → Code → Collect journey that reduces friction, denials, and time to cash." />
       </Helmet>
       {/* Hero */}
       <HeroSection
@@ -106,7 +106,7 @@ export default function HowItWorks() {
           <SectionHeader
             eyebrow="The End-to-End Flow"
             title="From Conversation to Compensation"
-            description="See how ZERA Scribe and ZERA RCM work together to transform your clinical and financial workflows."
+            description="See how Zera Scribe and Zera RCM work together to transform your clinical and financial workflows."
             dark={false}
           />
 
@@ -208,7 +208,7 @@ export default function HowItWorks() {
                  One Platform, Connected Workflows
                </h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                ZERA ties together capture, coding context, and revenue actions in one clinical-to-financial backbone instead of three disconnected tools. That means fewer dropped balls between teams and fewer denial-driven surprises in your cash flow.
+                Zera ties together capture, coding context, and revenue actions in one clinical-to-financial backbone instead of three disconnected tools. That means fewer dropped balls between teams and fewer denial-driven surprises in your cash flow.
               </p>
               <div className="space-y-4">
                 {[
@@ -258,9 +258,9 @@ export default function HowItWorks() {
                     </div>
                     <div className="bg-gradient-to-b from-blue-50 to-indigo-50 rounded-xl p-4 border border-blue-200">
                       <div className="space-y-3">
-                        <div className="bg-blue-100 rounded-lg p-3 text-blue-700 text-sm">ZERA Scribe</div>
+                        <div className="bg-blue-100 rounded-lg p-3 text-blue-700 text-sm">Zera Scribe</div>
                         <ChevronRight className="w-4 h-4 text-blue-600 mx-auto rotate-90" />
-                        <div className="bg-blue-100 rounded-lg p-3 text-blue-700 text-sm">ZERA RCM</div>
+                        <div className="bg-blue-100 rounded-lg p-3 text-blue-700 text-sm">Zera RCM</div>
                       </div>
                     </div>
                     <div className="mt-4 text-blue-600 text-sm">Connected, seamless</div>
@@ -278,7 +278,7 @@ export default function HowItWorks() {
           <SectionHeader
             eyebrow="Implementation"
             title="Fast, Low-Disruption Deployment"
-            description="We designed ZERA for rapid adoption—weeks, not months."
+            description="We designed Zera for rapid adoption—weeks, not months."
             dark={false}
           />
 

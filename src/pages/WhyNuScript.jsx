@@ -27,12 +27,12 @@ export default function WhyNuScript() {
     {
       icon: Users,
       title: "Founder-Led, Operator-Built",
-      description: "NuScript is led by founders with 25+ years in clinical documentation and revenue cycle operations. That experience shapes how we design ZERA, structure engagements, and measure success."
+      description: "NuScript is led by founders with 25+ years in clinical documentation and revenue cycle operations. That experience shapes how we design Zera, structure engagements, and measure success."
     },
     {
       icon: Clock,
       title: "25+ Years of Healthcare Experience",
-      description: "Our team has lived every phase of clinical documentation and RCM—from paper charts and dictation to EHR-native workflows—so ZERA is grounded in how work actually gets done."
+      description: "Our team has lived every phase of clinical documentation and RCM—from paper charts and dictation to EHR-native workflows—so Zera is grounded in how work actually gets done."
     },
     {
       icon: Shield,
@@ -42,7 +42,7 @@ export default function WhyNuScript() {
     {
       icon: Zap,
       title: "Epic-Aware Workflows",
-      description: "We don't just integrate with Epic—we understand Epic. Our team has deep experience with Epic RCM workflows, and ZERA RCM is designed to work within Epic, not around it."
+      description: "We don't just integrate with Epic—we understand Epic. Our team has deep experience with Epic RCM workflows, and Zera RCM is designed to work within Epic, not around it."
     }
   ];
 
@@ -64,8 +64,8 @@ export default function WhyNuScript() {
     },
     {
       year: "Today",
-      title: "The ZERA™ Product Suite",
-      description: "ZERA Scribe and ZERA RCM represent the next era of autonomous clinical and financial workflows—coined for our mission: Zero-friction Engine for Revenue Autonomy."
+      title: "The Zera™ Product Suite",
+      description: "Zera Scribe and Zera RCM represent the next era of autonomous clinical and financial workflows—coined for our mission: Zero-friction Engine for Revenue Autonomy."
     }
   ];
 
@@ -106,8 +106,8 @@ export default function WhyNuScript() {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>Why NuScript Health | 25+ Years of Clinical & RCM Experience Behind ZERA AI</title>
-        <meta name="description" content="NuScript Health is a founder‑led, Texas‑based healthtech company with 25+ years in clinical documentation and revenue cycle operations, now delivering the ZERA Scribe and ZERA RCM clinical‑to‑financial AI platform with SOC 2 and HIPAA‑aligned security for providers who want AI gains without operational chaos." />
+        <title>Why NuScript Health | 25+ Years of Clinical & RCM Experience Behind Zera AI</title>
+        <meta name="description" content="NuScript Health is a founder‑led, Texas‑based healthtech company with 25+ years in clinical documentation and revenue cycle operations, now delivering the Zera Scribe and Zera RCM clinical‑to‑financial AI platform with SOC 2 and HIPAA‑aligned security for providers who want AI gains without operational chaos." />
       </Helmet>
       {/* Hero */}
       <HeroSection
@@ -382,13 +382,13 @@ export default function WhyNuScript() {
             <div className="max-w-3xl mx-auto text-center">
               <span className="text-blue-600 text-sm font-semibold tracking-wider uppercase mb-4 block">About NuScript</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-                The Company Behind ZERA
+                The Company Behind Zera
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
                 NuScript Health is a founder‑led healthtech company based in Texas. After 25 years in clinical documentation and revenue cycle operations, we now build AI engines that automate both the note and the dollar for healthcare providers and their revenue teams.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                Our flagship products, <span className="text-blue-600 font-medium">ZERA Scribe</span> and <span className="text-blue-600 font-medium">ZERA RCM</span>, turn hard‑earned service experience into scalable software for the next era of autonomous clinical and financial workflows.
+                Our flagship products, <span className="text-blue-600 font-medium">Zera Scribe</span> and <span className="text-blue-600 font-medium">Zera RCM</span>, turn hard‑earned service experience into scalable software for the next era of autonomous clinical and financial workflows.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 

@@ -63,8 +63,8 @@ export default function ContactDemo() {
   return (
     <div className="bg-white min-h-screen">
       <Helmet>
-        <title>Schedule a ZERA Demo | Ambient AI Scribe & Autonomous RCM Walkthrough | NuScript Health</title>
-        <meta name="description" content="Schedule a live demo with NuScript Health to see ZERA Scribe and ZERA RCM in action, get answers on integrations, security, and implementation, and learn how ambient AI documentation and autonomous RCM can accelerate your practice or health system within 30–60 days." />
+        <title>Schedule a Zera Demo | Ambient AI Scribe & Autonomous RCM Walkthrough | NuScript Health</title>
+        <meta name="description" content="Schedule a live demo with NuScript Health to see Zera Scribe and Zera RCM in action, get answers on integrations, security, and implementation, and learn how ambient AI documentation and autonomous RCM can accelerate your practice or health system within 30–60 days." />
       </Helmet>
       {/* Hero */}
       <section className="relative overflow-hidden pt-20 pb-24 lg:pt-32 lg:pb-36 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -87,7 +87,7 @@ export default function ContactDemo() {
         >
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 mb-6">
-              See <span className="text-teal-600">ZERA</span> in Action
+              See <span className="text-teal-600">Zera</span> in Action
             </h1>
             <p className="text-lg text-slate-600 max-w-2xl">
               Talk with our team about how ambient AI documentation and autonomous RCM can transform your practice or health system.
@@ -326,7 +326,7 @@ export default function ContactDemo() {
                 a: "Most deployments are live within 30-60 days, depending on scope and your team's availability for setup and training."
               },
               {
-                q: "Is ZERA HIPAA compliant?",
+                q: "Is Zera HIPAA compliant?",
                 a: "Yes. We're SOC 2 certified and maintain HIPAA-aligned controls. Security and compliance details will be shared during your demo."
               }
             ].map((faq, index) => (

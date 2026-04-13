@@ -13,11 +13,11 @@ export default function PrivacyPolicy() {
       title: "Information We Collect",
       items: [
         {
-          label: "ZERA Scribe Data",
+          label: "Zera Scribe Data",
           description: "We collect audio recordings or transcripts of clinical encounters to generate documentation. Audio data is processed in real-time. Depending on client configuration, audio files may be deleted immediately following transcript generation to ensure maximum privacy (\"Zero-Retention\" mode)."
         },
         {
-          label: "ZERA RCM Data",
+          label: "Zera RCM Data",
           description: "We collect clinical documentation, ICD/CPT codes, and financial remittance data (835/277 files) to automate RCM workflows."
         },
         {
@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
       intro: "In addition to standard operational uses, we use information to:",
       items: [
         {
-          label: "Train and Optimize ZERA™ Models",
+          label: "Train and Optimize Zera™ Models",
           description: "We use de-identified, aggregated data to improve the accuracy of our ambient listening and autonomous coding engines. We do not use identifiable PHI to train models accessible by other clients."
         },
         {
@@ -106,8 +106,8 @@ export default function PrivacyPolicy() {
   return (
     <div className="bg-white min-h-screen">
       <Helmet>
-        <title>Privacy Policy | NuScript Health ZERA Scribe & Flow Clinical‑to‑Financial AI Platform</title>
-        <meta name="description" content="Read NuScript Health's Privacy Policy covering ZERA Scribe and ZERA RCM, including HIPAA Business Associate status, PHI handling, data retention, AI model training, security controls, sub‑processors, and state‑specific privacy notices." />
+        <title>Privacy Policy | NuScript Health Zera Scribe & Flow Clinical‑to‑Financial AI Platform</title>
+        <meta name="description" content="Read NuScript Health's Privacy Policy covering Zera Scribe and Zera RCM, including HIPAA Business Associate status, PHI handling, data retention, AI model training, security controls, sub‑processors, and state‑specific privacy notices." />
       </Helmet>
       {/* Hero */}
       <section className="relative pt-20 pb-12 lg:pt-32 lg:pb-16 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -140,7 +140,7 @@ export default function PrivacyPolicy() {
           >
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Introduction</h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              NuScript Systems, Inc., doing business as NuScript Health ("NuScript Health", "we", "us", or "our") provides a Clinical-to-Financial AI platform. This Privacy Policy describes how we handle personal information across our website and our two core product suites: <span className="font-semibold">ZERA™ Scribe</span> (Ambient Clinical Intelligence) and <span className="font-semibold">ZERA™ Flow</span> (Autonomous Revenue Cycle Management).
+              NuScript Systems, Inc., doing business as NuScript Health ("NuScript Health", "we", "us", or "our") provides a Clinical-to-Financial AI platform. This Privacy Policy describes how we handle personal information across our website and our two core product suites: <span className="font-semibold">Zera™ Scribe</span> (Ambient Clinical Intelligence) and <span className="font-semibold">Zera™ Flow</span> (Autonomous Revenue Cycle Management).
             </p>
           </motion.div>
 

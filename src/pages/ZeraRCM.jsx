@@ -65,13 +65,13 @@ export default function ZeraRCM() {
     {
       title: "The Denial-Plagued Health System",
       persona: "Regional Health System, 300+ beds",
-      description: "A regional health system was losing millions annually to preventable denials. ZERA RCM's predictive engine identified denial patterns and pushed fixes upstream, catching issues before claims were ever submitted.",
+      description: "A regional health system was losing millions annually to preventable denials. Zera RCM's predictive engine identified denial patterns and pushed fixes upstream, catching issues before claims were ever submitted.",
       outcome: "40% reduction in initial denials within first 6 months"
     },
     {
       title: "The Cash-Strapped ASC",
       persona: "Multi-Specialty Ambulatory Surgery Center",
-      description: "An ASC with high case volume was struggling with authorization delays and slow reimbursement. ZERA RCM automated eligibility verification and prior auth tracking, dramatically accelerating the revenue cycle.",
+      description: "An ASC with high case volume was struggling with authorization delays and slow reimbursement. Zera RCM automated eligibility verification and prior auth tracking, dramatically accelerating the revenue cycle.",
       outcome: "Reduced days in AR from 45 to under 25"
     }
   ];
@@ -79,8 +79,8 @@ export default function ZeraRCM() {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>ZERA RCM | Epic‑Native Autonomous RCM & Denial Prevention Engine | NuScript Health</title>
-        <meta name="description" content="ZERA RCM from NuScript Health is a zero‑friction, Epic‑native financial clearance engine that predicts and prevents denials, automates eligibility and auth workflows, and improves clean claim rates, days in AR, and cash flow for revenue cycle leaders." />
+        <title>Zera RCM | Epic‑Native Autonomous RCM & Denial Prevention Engine | NuScript Health</title>
+        <meta name="description" content="Zera RCM from NuScript Health is a zero‑friction, Epic‑native financial clearance engine that predicts and prevents denials, automates eligibility and auth workflows, and improves clean claim rates, days in AR, and cash flow for revenue cycle leaders." />
       </Helmet>
       {/* Hero */}
       <section className="relative overflow-hidden bg-white pt-20 pb-24 lg:pt-32 lg:pb-36">
@@ -112,7 +112,7 @@ export default function ZeraRCM() {
                 className="text-slate-600 leading-relaxed mb-10"
                 style={{fontSize: '20px'}}
               >
-                ZERA RCM is a zero-friction, Epic-native financial clearance engine that autonomously predicts and prevents denials, accelerates cash, and delivers the revenue performance your organization deserves.
+                Zera RCM is a zero-friction, Epic-native financial clearance engine that autonomously predicts and prevents denials, accelerates cash, and delivers the revenue performance your organization deserves.
               </motion.p>
               
               <motion.div
@@ -129,10 +129,10 @@ export default function ZeraRCM() {
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a 
-                  href="mailto:hello@nuscripthealth.com?subject=ZERA%20Flow%20Deck%20Request"
+                  href="mailto:hello@nuscripthealth.com?subject=Zera%20Flow%20Deck%20Request"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gray-200 hover:bg-gray-300 text-slate-900 font-semibold rounded-full border border-gray-300 transition-all"
                 >
-                  Get the ZERA RCM Deck
+                  Get the Zera RCM Deck
                 </a>
               </motion.div>
             </div>
@@ -146,7 +146,7 @@ export default function ZeraRCM() {
               <div className="flex items-center gap-3">
                 <img
                   src="/images/zera-icon.png"
-                  alt="ZERA"
+                  alt="Zera"
                   className="h-11 object-contain"
                 />
                 <div className="w-px h-8 bg-gray-300" />
@@ -171,7 +171,7 @@ export default function ZeraRCM() {
                 Autonomous Revenue Cycle Management
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                ZERA RCM is not another RCM dashboard—it is an autonomous engine that predicts problems, prevents denials, and optimizes your revenue cycle without constant human intervention.
+                Zera RCM is not another RCM dashboard—it is an autonomous engine that predicts problems, prevents denials, and optimizes your revenue cycle without constant human intervention.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
                 Built for CFOs and revenue cycle leaders who want predictable cash flow, not endless workarounds.
@@ -248,7 +248,7 @@ export default function ZeraRCM() {
           <SectionHeader
             eyebrow="Outcomes"
             title="Financial Performance That Matters"
-            description="ZERA RCM is designed to deliver the metrics CFOs and revenue cycle leaders care about."
+            description="Zera RCM is designed to deliver the metrics CFOs and revenue cycle leaders care about."
             dark={false}
           />
 
@@ -288,12 +288,12 @@ export default function ZeraRCM() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <SectionHeader
             eyebrow="Innovation in Progress"
-            title="ZERA RCM: The Future of Revenue Cycle"
-            description="We are actively building and refining ZERA RCM alongside healthcare providers and revenue cycle teams. Early adopters will help shape the roadmap and gain a real competitive edge as autonomous RCM becomes the new standard."
+            title="Zera RCM: The Future of Revenue Cycle"
+            description="We are actively building and refining Zera RCM alongside healthcare providers and revenue cycle teams. Early adopters will help shape the roadmap and gain a real competitive edge as autonomous RCM becomes the new standard."
             dark={false}
           />
           <div className="mt-12 inline-block">
-            <a href="mailto:hello@nuscripthealth.com?subject=ZERA%20Flow%20Early%20Access" className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-all hover:shadow-lg">
+            <a href="mailto:hello@nuscripthealth.com?subject=Zera%20Flow%20Early%20Access" className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-all hover:shadow-lg">
               Request Early Access
             </a>
           </div>
@@ -311,7 +311,7 @@ export default function ZeraRCM() {
             >
               <span className="text-blue-600 text-sm font-semibold tracking-wider uppercase mb-4 block">For Financial Leaders</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-                What Early CFO Design Partners Get with ZERA RCM
+                What Early CFO Design Partners Get with Zera RCM
               </h2>
               <div className="space-y-4">
                 {[
@@ -338,7 +338,7 @@ export default function ZeraRCM() {
               <div className="text-blue-600 text-sm font-semibold mb-4">THE PROBLEM</div>
               <div className="text-5xl font-bold text-slate-900 mb-4">$262B</div>
               <p className="text-slate-600 leading-relaxed">
-                in annual claim denials across the US healthcare system. ZERA RCM's predictive engine helps you avoid becoming part of that statistic.
+                in annual claim denials across the US healthcare system. Zera RCM's predictive engine helps you avoid becoming part of that statistic.
               </p>
             </motion.div>
           </div>
@@ -356,7 +356,7 @@ export default function ZeraRCM() {
                     Built to Work With Your EHR
                   </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  ZERA RCM is designed to integrate deeply with Epic RCM workflows—not sit beside them. Our Epic-native approach means your teams work within familiar systems while gaining autonomous capabilities.
+                  Zera RCM is designed to integrate deeply with Epic RCM workflows—not sit beside them. Our Epic-native approach means your teams work within familiar systems while gaining autonomous capabilities.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3 text-slate-700">
@@ -389,9 +389,9 @@ export default function ZeraRCM() {
       {/* CTA */}
       <CTASection
         title="Ready to Transform Your Revenue Cycle?"
-        description="See how ZERA RCM can deliver predictable cash flow and eliminate denial chaos."
+        description="See how Zera RCM can deliver predictable cash flow and eliminate denial chaos."
         primaryCTA={{ text: "Get Early Access", href: createPageUrl("ContactDemo") }}
-        secondaryCTA={{ text: "Get the ZERA RCM Deck", href: "mailto:hello@nuscripthealth.com?subject=ZERA%20Flow%20Deck" }}
+        secondaryCTA={{ text: "Get the Zera RCM Deck", href: "mailto:hello@nuscripthealth.com?subject=Zera%20Flow%20Deck" }}
       />
     </div>
   );

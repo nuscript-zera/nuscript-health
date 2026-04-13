@@ -49,9 +49,9 @@ export default function SolutionsASC() {
   const solutions = [
     {
       icon: FileText,
-      product: "ZERA Scribe",
+      product: "Zera Scribe",
       title: "Ambient Documentation for High-Volume Surgical Settings",
-      description: "Capture surgical encounters without slowing case turnover. ZERA Scribe produces specialty-specific operative reports and procedure notes that meet coding requirements.",
+      description: "Capture surgical encounters without slowing case turnover. Zera Scribe produces specialty-specific operative reports and procedure notes that meet coding requirements.",
       benefits: [
         "Operative notes completed before the surgeon leaves",
         "Specialty templates for ortho, GI, pain, and more",
@@ -61,9 +61,9 @@ export default function SolutionsASC() {
     },
     {
       icon: DollarSign,
-      product: "ZERA RCM",
+      product: "Zera RCM",
       title: "Streamlined Financial Clearance for ASCs",
-      description: "Eliminate authorization delays and cash flow uncertainty. ZERA RCM automates eligibility verification, prior auth tracking, and denial prevention.",
+      description: "Eliminate authorization delays and cash flow uncertainty. Zera RCM automates eligibility verification, prior auth tracking, and denial prevention.",
       benefits: [
         "Real-time eligibility and benefits verification",
         "Automated prior authorization tracking",
@@ -77,13 +77,13 @@ export default function SolutionsASC() {
     {
       title: "The High-Volume Ortho ASC",
       persona: "Orthopedic Surgery Center, 15+ cases/day",
-      description: "A busy orthopedic ASC was struggling with surgeon documentation backlogs. After implementing ZERA Scribe, surgeons complete operative notes same-day with accurate CPT coding, eliminating the post-op documentation burden.",
+      description: "A busy orthopedic ASC was struggling with surgeon documentation backlogs. After implementing Zera Scribe, surgeons complete operative notes same-day with accurate CPT coding, eliminating the post-op documentation burden.",
       outcome: "Zero documentation backlog, 100% same-day note completion"
     },
     {
       title: "The GI Endoscopy Center",
       persona: "Gastroenterology, 25+ procedures/day",
-      description: "A high-volume GI center was struggling with documentation turnaround time for colonoscopy and endoscopy reports. After implementing ZERA Scribe, all procedure notes are completed same-day with accurate CPT coding, eliminating backlogs.",
+      description: "A high-volume GI center was struggling with documentation turnaround time for colonoscopy and endoscopy reports. After implementing Zera Scribe, all procedure notes are completed same-day with accurate CPT coding, eliminating backlogs.",
       outcome: "100% same-day documentation, 40% reduction in coding errors"
     }
   ];
@@ -91,8 +91,8 @@ export default function SolutionsASC() {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>Ambulatory Surgery Center Solutions | ZERA Scribe & Flow for ASCs | NuScript Health</title>
-        <meta name="description" content="NuScript Health's AI platform is built for Ambulatory Surgery Centers—combining ZERA Scribe for same‑day operative notes with ZERA RCM for real‑time eligibility, prior auth automation, and denial prevention to reduce documentation backlogs, eliminate case delays, and accelerate ASC cash flow." />
+        <title>Ambulatory Surgery Center Solutions | Zera Scribe & Flow for ASCs | NuScript Health</title>
+        <meta name="description" content="NuScript Health's AI platform is built for Ambulatory Surgery Centers—combining Zera Scribe for same‑day operative notes with Zera RCM for real‑time eligibility, prior auth automation, and denial prevention to reduce documentation backlogs, eliminate case delays, and accelerate ASC cash flow." />
       </Helmet>
       {/* Hero */}
       <HeroSection
@@ -215,7 +215,7 @@ export default function SolutionsASC() {
           <SectionHeader
             eyebrow="In Practice"
             title="ASC Success Stories"
-            description="How surgery centers are using ZERA."
+            description="How surgery centers are using Zera."
             dark={false}
           />
 

@@ -25,8 +25,8 @@ export default function ClinicalRootsSection() {
     },
     { 
       year: "Today", 
-      label: "The ZERA™ Product Suite", 
-      desc: "ZERA Scribe and ZERA RCM represent the next era of autonomous clinical and financial workflows with zero-friction.",
+      label: "The Zera™ Product Suite", 
+      desc: "Zera Scribe and Zera RCM represent the next era of autonomous clinical and financial workflows with zero-friction.",
       icon: CheckCircle
     }
   ];
@@ -87,7 +87,7 @@ export default function ClinicalRootsSection() {
             className="max-w-3xl space-y-6 mb-16"
           >
             <p className="text-lg text-slate-600 leading-relaxed">
-              ZERA wasn't built in a vacuum. It was forged from over 25 years of experience managing documentation and revenue cycle operations for specialties, ASCs, and health systems. We understand the friction of a denial queue because we've sat in them. We know the burden of after-hours charting because we've supported thousands of clinicians through it.
+              Zera wasn't built in a vacuum. It was forged from over 25 years of experience managing documentation and revenue cycle operations for specialties, ASCs, and health systems. We understand the friction of a denial queue because we've sat in them. We know the burden of after-hours charting because we've supported thousands of clinicians through it.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
               Our mission to build a <span className="font-semibold text-slate-900">Zero-friction Engine for Revenue Autonomy</span> is the direct result of seeing where traditional RCM fails. We combined our deep clinical roots with healthcare-tuned LLMs to create a platform that fits your existing Epic workflows instead of fighting them.

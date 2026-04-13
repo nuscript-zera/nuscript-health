@@ -67,8 +67,8 @@ export default function Layout() {
       name: "Products", 
       hasDropdown: true,
       items: [
-        { name: "ZERA Scribe", page: "ZeraScribe" },
-        { name: "ZERA RCM", page: "ZeraRCM" },
+        { name: "Zera Scribe", page: "ZeraScribe" },
+        { name: "Zera RCM", page: "ZeraRCM" },
       ]
     },
     { 
@@ -285,10 +285,10 @@ export default function Layout() {
               <div className="text-slate-300 font-medium mb-4 text-base">Products</div>
               <div className="space-y-3">
                 <Link to={createPageUrl("ZeraScribe")} className="block text-gray-400 hover:text-blue-400 transition-colors" style={{fontSize: '14px'}}>
-                  ZERA Scribe
+                  Zera Scribe
                 </Link>
                 <Link to={createPageUrl("ZeraRCM")} className="block text-gray-400 hover:text-blue-400 transition-colors" style={{fontSize: '14px'}}>
-                  ZERA RCM
+                  Zera RCM
                 </Link>
                 <Link to={createPageUrl("HowItWorks")} className="block text-gray-400 hover:text-blue-400 transition-colors" style={{fontSize: '14px'}}>
                   How It Works
@@ -333,7 +333,7 @@ export default function Layout() {
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-8 mb-8">
               <div className="flex flex-col gap-2">
                 <p className="text-slate-500" style={{fontSize: '13px'}}>
-                    © 2026 NuScript Systems, Inc. dba NuScript Health. ZERA™ is a trademark of NuScript Systems, Inc. All rights reserved.
+                    © 2026 NuScript Systems, Inc. dba NuScript Health. Zera™ is a trademark of NuScript Systems, Inc. All rights reserved.
                   </p>
 
               </div>

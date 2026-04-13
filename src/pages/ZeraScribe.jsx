@@ -66,13 +66,13 @@ export default function ZeraScribe() {
     {
       title: "The Burned-Out Physician",
       persona: "Internal Medicine, Multi-Site Practice",
-      description: "Dr. Chen was spending 2+ hours every night finishing charts. After deploying ZERA Scribe, she completes documentation during patient visits and leaves on time—without sacrificing note quality.",
+      description: "Dr. Chen was spending 2+ hours every night finishing charts. After deploying Zera Scribe, she completes documentation during patient visits and leaves on time—without sacrificing note quality.",
       outcome: "Reclaimed evenings with family, improved patient satisfaction scores"
     },
     {
       title: "The Growing Specialty Practice",
       persona: "Orthopedic Surgery Group",
-      description: "A 12-provider orthopedic group was scaling but couldn't hire scribes fast enough. ZERA Scribe's ambient AI handles documentation across all providers without adding headcount.",
+      description: "A 12-provider orthopedic group was scaling but couldn't hire scribes fast enough. Zera Scribe's ambient AI handles documentation across all providers without adding headcount.",
       outcome: "Scaled from 8 to 12 providers without additional documentation staff"
     }
   ];
@@ -80,8 +80,8 @@ export default function ZeraScribe() {
   return (
           <div className="bg-white">
       <Helmet>
-        <title>ZERA Scribe | Ambient AI Medical Scribe for Clinical Documentation | NuScript Health</title>
-        <meta name="description" content="ZERA Scribe is an ambient AI medical scribe from NuScript Health that listens to clinician‑patient conversations and generates chart‑ready notes and code suggestions—cutting after‑hours charting, improving coding accuracy, and reducing documentation burden for providers." />
+        <title>Zera Scribe | Ambient AI Medical Scribe for Clinical Documentation | NuScript Health</title>
+        <meta name="description" content="Zera Scribe is an ambient AI medical scribe from NuScript Health that listens to clinician‑patient conversations and generates chart‑ready notes and code suggestions—cutting after‑hours charting, improving coding accuracy, and reducing documentation burden for providers." />
       </Helmet>
       {/* Hero */}
       <section className="relative overflow-hidden bg-white pt-20 pb-24 lg:pt-32 lg:pb-36">
@@ -113,7 +113,7 @@ export default function ZeraScribe() {
                 className="text-slate-600 leading-relaxed mb-10"
                 style={{fontSize: '20px'}}
               >
-                ZERA Scribe is an ambient AI medical scribe that sits in the background of the clinical encounter, using healthcare-tuned generative AI to produce chart-ready notes and structured data for coding—tailored to your specialty and workflow.
+                Zera Scribe is an ambient AI medical scribe that sits in the background of the clinical encounter, using healthcare-tuned generative AI to produce chart-ready notes and structured data for coding—tailored to your specialty and workflow.
               </motion.p>
               
               <motion.div
@@ -130,7 +130,7 @@ export default function ZeraScribe() {
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a 
-                  href="mailto:hello@nuscripthealth.com?subject=ZERA%20Scribe%20Product%20Brief"
+                  href="mailto:hello@nuscripthealth.com?subject=Zera%20Scribe%20Product%20Brief"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gray-200 hover:bg-gray-300 text-slate-900 font-semibold rounded-full border border-gray-300 transition-all"
                 >
                   Get the Product Brief
@@ -147,7 +147,7 @@ export default function ZeraScribe() {
               <div className="flex items-center gap-3">
                 <img
                   src="/images/zera-icon.png"
-                  alt="ZERA"
+                  alt="Zera"
                   className="h-11 object-contain"
                 />
                 <div className="w-px h-8 bg-gray-300" />
@@ -172,10 +172,10 @@ export default function ZeraScribe() {
                 AI Documentation That Actually Works
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                ZERA Scribe listens to your patient conversations, understands clinical context, and produces complete, accurate documentation—without you touching a keyboard.
+                Zera Scribe listens to your patient conversations, understands clinical context, and produces complete, accurate documentation—without you touching a keyboard.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                Unlike generic transcription tools, ZERA Scribe is built specifically for healthcare. It understands medical terminology, specialty workflows, and the coding requirements that drive clean claims.
+                Unlike generic transcription tools, Zera Scribe is built specifically for healthcare. It understands medical terminology, specialty workflows, and the coding requirements that drive clean claims.
               </p>
               <div className="flex items-center gap-4">
                 <div className="flex -space-x-2">
@@ -249,7 +249,7 @@ export default function ZeraScribe() {
           <SectionHeader
             eyebrow="Outcomes"
             title="Measurable Impact on Your Practice"
-            description="ZERA Scribe doesn't just promise efficiency—it delivers quantifiable results."
+            description="Zera Scribe doesn't just promise efficiency—it delivers quantifiable results."
             dark={false}
           />
 
@@ -290,7 +290,7 @@ export default function ZeraScribe() {
           <SectionHeader
             eyebrow="In Practice"
             title="Real Scenarios, Real Results"
-            description="How practices like yours are using ZERA Scribe."
+            description="How practices like yours are using Zera Scribe."
             dark={false}
           />
           <div className="grid md:grid-cols-2 gap-8">
@@ -312,7 +312,7 @@ export default function ZeraScribe() {
             >
               <span className="text-blue-600 text-sm font-semibold tracking-wider uppercase mb-4 block">For Clinical Leaders</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-                Why CMIOs Trust ZERA Scribe
+                Why CMIOs Trust Zera Scribe
               </h2>
               <div className="space-y-4">
                 {[
@@ -339,7 +339,7 @@ export default function ZeraScribe() {
               <div className="text-blue-600 text-sm font-semibold mb-4">QUICK STAT</div>
               <div className="text-5xl font-bold text-slate-900 mb-4">43%</div>
               <p className="text-slate-600 leading-relaxed">
-                of physician time is spent on EHR and documentation tasks. ZERA Scribe gives providers back their clinical time—and their evenings.
+                of physician time is spent on EHR and documentation tasks. Zera Scribe gives providers back their clinical time—and their evenings.
               </p>
             </motion.div>
           </div>
@@ -348,10 +348,10 @@ export default function ZeraScribe() {
 
       {/* CTA */}
       <CTASection
-        title="Ready to See ZERA Scribe in Action?"
+        title="Ready to See Zera Scribe in Action?"
         description="Schedule a personalized walkthrough and see how ambient AI documentation can transform your practice."
         primaryCTA={{ text: "Get Early Access", href: createPageUrl("ContactDemo") }}
-        secondaryCTA={{ text: "Get Product Details", href: "mailto:hello@nuscripthealth.com?subject=ZERA%20Scribe%20Details" }}
+        secondaryCTA={{ text: "Get Product Details", href: "mailto:hello@nuscripthealth.com?subject=Zera%20Scribe%20Details" }}
       />
     </div>
   );
