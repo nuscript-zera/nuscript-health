@@ -152,10 +152,13 @@ export default function Home() {
             >
               <div className="absolute top-0 right-0 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl group-hover:bg-blue-400/20 transition-all" />
               <div className="relative">
-                <div className="mb-6">
-                  <span className="text-2xl font-bold tracking-tight text-slate-900">Zera Scribe</span>
+                <div className="mb-5">
+                  <h3 className="text-3xl font-bold tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+                    <span className="text-slate-900">Zera </span>
+                    <span className="text-blue-600">Scribe</span>
+                  </h3>
+                  <p className="text-slate-500 text-sm font-medium mt-1.5 uppercase tracking-wider">Ambient AI Medical Scribe</p>
                 </div>
-                <p className="text-slate-600 text-lg mb-6 font-semibold">Ambient AI Medical Scribe</p>
                 <p className="text-slate-700 leading-relaxed mb-6">
                   <span className="text-blue-600 font-medium">Zera Scribe</span> listens to patient encounters, drafts chart-ready notes, and surfaces code-ready detail in real time. Providers finish on time, clinical quality improves, and the data required for payment is captured up front.
                 </p>
@@ -187,10 +190,13 @@ export default function Home() {
             >
               <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-400/10 rounded-full blur-3xl group-hover:bg-indigo-400/20 transition-all" />
               <div className="relative">
-                <div className="mb-6">
-                  <span className="text-2xl font-bold tracking-tight text-slate-900">Zera RCM</span>
+                <div className="mb-5">
+                  <h3 className="text-3xl font-bold tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+                    <span className="text-slate-900">Zera </span>
+                    <span className="text-indigo-600">RCM</span>
+                  </h3>
+                  <p className="text-slate-500 text-sm font-medium mt-1.5 uppercase tracking-wider">Autonomous RCM Engine</p>
                 </div>
-                <p className="text-slate-600 text-lg mb-6 font-semibold">Autonomous RCM Engine</p>
                 <p className="text-slate-700 leading-relaxed mb-6">
                   <span className="text-blue-600 font-medium">Zera RCM</span> monitors financial workflows, identifies payer and patient risk, and resolves issues before service. Claims process more smoothly, denials are reduced, and more clean, touchless claims reach payers on time.
                 </p>

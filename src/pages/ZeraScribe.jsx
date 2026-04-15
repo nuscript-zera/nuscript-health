@@ -138,16 +138,7 @@ export default function ZeraScribe() {
               </motion.div>
             </div>
             
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="flex justify-center lg:justify-end"
-            >
-              <div>
-                <span className="text-3xl font-bold tracking-tight text-slate-900">Zera Scribe</span>
-              </div>
-            </motion.div>
+
           </div>
         </div>
       </section>
