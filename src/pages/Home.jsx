@@ -152,14 +152,8 @@ export default function Home() {
             >
               <div className="absolute top-0 right-0 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl group-hover:bg-blue-400/20 transition-all" />
               <div className="relative">
-                <div className="flex items-center gap-3 mb-6">
-                  <img 
-                    src="/images/zera-icon.png" 
-                    alt="Zera" 
-                    className="h-9 object-contain"
-                  />
-                  <div className="w-px h-7 bg-gray-300" />
-                  <span className="text-2xl font-semibold tracking-tight" style={{color: '#475569'}}>Scribe</span>
+                <div className="mb-6">
+                  <span className="text-2xl font-bold tracking-tight text-slate-900">Zera Scribe</span>
                 </div>
                 <p className="text-slate-600 text-lg mb-6 font-semibold">Ambient AI Medical Scribe</p>
                 <p className="text-slate-700 leading-relaxed mb-6">
@@ -193,14 +187,8 @@ export default function Home() {
             >
               <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-400/10 rounded-full blur-3xl group-hover:bg-indigo-400/20 transition-all" />
               <div className="relative">
-                <div className="flex items-center gap-3 mb-6">
-                  <img 
-                    src="/images/zera-icon.png" 
-                    alt="Zera" 
-                    className="h-9 object-contain"
-                  />
-                  <div className="w-px h-7 bg-gray-300" />
-                  <span className="text-2xl font-semibold tracking-tight" style={{color: '#475569'}}>RCM</span>
+                <div className="mb-6">
+                  <span className="text-2xl font-bold tracking-tight text-slate-900">Zera RCM</span>
                 </div>
                 <p className="text-slate-600 text-lg mb-6 font-semibold">Autonomous RCM Engine</p>
                 <p className="text-slate-700 leading-relaxed mb-6">

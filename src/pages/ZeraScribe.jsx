@@ -144,14 +144,8 @@ export default function ZeraScribe() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="flex justify-center lg:justify-end"
             >
-              <div className="flex items-center gap-3">
-                <img
-                  src="/images/zera-icon.png"
-                  alt="Zera"
-                  className="h-11 object-contain"
-                />
-                <div className="w-px h-8 bg-gray-300" />
-                <span className="text-3xl font-semibold tracking-tight" style={{color: '#475569'}}>Scribe</span>
+              <div>
+                <span className="text-3xl font-bold tracking-tight text-slate-900">Zera Scribe</span>
               </div>
             </motion.div>
           </div>
